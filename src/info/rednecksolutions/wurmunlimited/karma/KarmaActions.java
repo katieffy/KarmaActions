@@ -132,7 +132,7 @@ public class KarmaActions implements WurmServerMod, Configurable, ServerStartedL
 				Logger.getLogger(KarmaActions.class.getName()).log(Level.INFO, "Creature ID: "+reward.getCreatureID()+", Karma Reward: "+reward.getKarmaRewardAmount()+", Coin Reward: "+reward.getCoinRewardAmount());
 				if(template.getTemplateId() == reward.getCreatureID())
 				{
-					performer.getCommunicator().sendSafeServerMessage("matched! Creature ID: "+reward.getCreatureID());
+					
 				}
 			}
 		}
